@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (3.5.1)
+  - CocoapodDeployTest (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - CocoapodDeployTest
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoapodDeployTest
+
+SPEC CHECKSUMS:
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  CocoapodDeployTest: c42f03c7897813dd905312051f08a00df30ba7bd
+
+PODFILE CHECKSUM: 6badea99a63881963b64ac5a01b72f49ed52f20c
+
+COCOAPODS: 1.12.1

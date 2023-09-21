@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-CocoapodUsageTest/Pods-CocoapodUsageTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CocoapodDeployTest/CocoapodDeployTest.framework

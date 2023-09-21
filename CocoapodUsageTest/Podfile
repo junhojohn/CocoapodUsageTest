@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CocoapodUsageTest' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # cocoapod 사용 테스트를 위해 새롭게 추가한 Alamofire 3.0 라이브러리
+  pod 'Alamofire', '~> 3.0'
+  
+  # cocoapod 사용 테스트를 위해 새롭게 추가한 CocoapodDeployTest 0.1.0 라이브러리
+  pod 'CocoapodDeployTest'
+
+  # Pods for CocoapodUsageTest
+
+  target 'CocoapodUsageTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CocoapodUsageTestUITests' do
+    # Pods for testing
+  end
+
+end
